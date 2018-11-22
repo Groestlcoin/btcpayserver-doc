@@ -18,7 +18,7 @@ With BTCPay, you are your own bank.
 
 The community is excited about BTCPay and often recommends it to merchants or content creators because it offers a direct way for store-owners and charities to receive Bitcoin payments, which significantly improves the privacy of the customers/donors. 
 
-BTCPay doesn't compromise on censorship-resistance, which is one of the main feature of Bitcoin. Besides that, being free and open-source it gives a great opportunity for developers to build things and integrations on top of BTCPay.
+BTCPay doesn't compromise on censorship-resistance, which is one of the main features of Bitcoin. Besides that, being free and open-source it gives a great opportunity for developers to build things and integrations on top of BTCPay.
 
 ## How much does it cost to run BTCPay Server?
 
@@ -48,7 +48,7 @@ Please check out [How to penny-pinch your Azure deployment](AzurePennyPinching.m
 
 ## What are the minimal requirements to run BTCPay?
 
-If you would like to run Bitcoin and Lightning Network nodes, the minimal requirements are :
+If you would like to run Bitcoin and Lightning Network nodes, the minimal requirements are:
 - 2GB Ram
 - 80 GB of storage (with pruning enabled)
 - Docker
@@ -190,22 +190,6 @@ The network cost is an optional feature. It's enabled by default, but it's entir
 While it protects dust transactions, it can also reflect negatively and your customers might have additional questions and may lead them into thinking you're overcharging them.
 
 Please think twice about how this may affect your business and make sure to communicate it to your customers properly inside your store Terms of Service or by other methods.
-
-## I'm already running a full node and have a synched blockchain, can I make BTCPay use it so that it doesn't have to do a full sync again ?
-
-If you want to run BTCPay inside a docker-compose, and that you have the data directory (`.bitcoin`) of a fully synched node on your docker host, then you can reuse it easily for BTCPay.
-
-To do that, follow the following steps :
-* Do the normal setup according to [this instruction](https://github.com/btcpayserver/btcpayserver-docker/blob/master/README.md).
-* Once `btcpay-setup.sh` is over, turn down the docker compose with `btcpay-down.sh`.
-* Login as root with `sudo su -`.
-* Open the docker's volume for bitcoind : `cd /var/lib/docker/volumes/generated_bitcoin_datadir/`, and check its content with `ls -la`. You should see only one directory named `_data`.
-* Now remove the `_data`directory : `rm -r _data`. If for any reason you want to keep this directory and its content you can also rename it instead : `mv _data/ _data.old/`
-* Now create a [symbolic link](https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/) between `/var/lib/docker/volumes/generated_bitcoin_datadir/_data` and your data directory (`.bitcoin`) on your host: `ln -s path/to/.bitcoin /var/lib/docker/volumes/generated_bitcoin_datadir/_data`
-* Check that the link has been done with a `ls -la`
-* Start your docker-compose again with `btcpay-up.sh`
-
-Your BTCPay Server should now be fully synched.
 
 ## Why is my ledger not detected by BTCPay Server?
 
@@ -491,12 +475,12 @@ Restart your Electrum and verify that the newly set gap limit is correct by ente
 
 `wallet.gap_limit`
 
-There's no good answer to how much you should set the gap limit to. Most merchants set 100-200. If you're a big merchants with high transaction volume, you can try with even higher gap limit. 
+There's no good answer to how much you should set the gap limit to. Most merchants set 100-200. If you're a big merchant with high transaction volume, you can try with even higher gap limit. 
 
 Be aware that :
 
 * Higher gap limit may slow down the performance of your wallet
-* Not all wallets support the incraesed gap limit. If you import Electrum recovery seed into another wallet, you may not see all the funds again.
+* Not all wallets support the increased gap limit. If you import Electrum recovery seed into another wallet, you may not see all the funds again.
 
 When an invoice is created in BTCPay, it does it for all coins you have setup. You may want to increase the gap limit for altcoins as well in their supported wallets.
 

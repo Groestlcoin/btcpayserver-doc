@@ -9,6 +9,7 @@
     
 ## Deployment
 
+* [Choosing a Deployment Method](Deployment.md)
 * [Web Deployment](LunaNodeWebDeployment.md)
 * [Azure Deployment](AzureDeployment.md)
     * [Reducing Cost on Azure](AzurePennyPinching.md)
@@ -34,10 +35,26 @@
 * [Developing Locally](LocalDevelopment.md)
 * [Lightning Network](LightningNetwork.md)
 * [How to add an Altcoin](Altcoins.md)
+* [Customize Bootstrap theme](Theme.md)
+
+### FAQ and common issues
+
+* [FAQ Table of Contents](FAQ/readme.md)
+* [General FAQ](FAQ/FAQ-General.md)
+* [Deployment FAQ](FAQ/FAQ-Deployment.md)
+* [Synchronization FAQ](FAQ/FAQ-Synchronization.md)
+* [Integrations FAQ](FAQ/FAQ-Integrations.md)
+* [Server Settings FAQ](FAQ/FAQ-ServerSettings.md)
+* [Stores FAQ](FAQ/FAQ-Stores.md)
+* [Wallet FAQ](FAQ/FAQ-Wallet.md)
+* [Apps FAQ](FAQ/FAQ-Apps.md)
+* [Lightning Network FAQ](FAQ/FAQ-LightningNetwork.md)
+* [Altcoins FAQ](FAQ/FAQ-Altcoin.md)
 
 ### Support and Community
 
-* [FAQ](FAQ.md)
+* [Troubleshooting an issue](Troubleshooting.md)
 * [Support](Support.md)
 * [Contribute](Contribute.md)
+* [Translate](Translate.md)
 * [Community](Community.md)
