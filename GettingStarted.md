@@ -6,7 +6,7 @@ You will see the pop-up message showing the sync progress. When your node fully 
 
 ## Account Registration
 
-![BTCPayRegister1](img/BTCPayRegister1.jpg)
+![GRSPayRegister1](img/GRSPayRegister1.jpg)
 
 The <strong>first created account</strong> on your newly-created GRSPay server is automatically an <strong>admin</strong>. You can register your admin account even if your node is not fully synced.
 
@@ -16,11 +16,11 @@ To register, visit your GRSPay server URL and click on the "Register" in the upp
 
 When logged in, go to > <strong>Stores</strong> in the upper navigation menu and <strong>create a new store</strong>. You can create an unlimited number of stores on GRSPay Server.
 
-![BTCPayRegister2](img/BTCPayGettingStartedStoreRegistration1.jpg)
+![GRSPayRegister2](img/GRSPayGettingStartedStoreRegistration1.jpg)
 
 ## Customizing your GRSPay Store Settings
 
-Store > Settings provide basis control over individual store settings. Modify the confirmations, invoice expiry and more. 
+Store > Settings provide basis control over individual store settings. Modify the confirmations, invoice expiry and more.
 
 ### Connecting GRSPay Store to your wallet
 
