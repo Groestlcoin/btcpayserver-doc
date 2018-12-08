@@ -2,7 +2,7 @@
 
 After deployment, your GRSPay server needs to sync the blockchain. Depending on your machine configuration, bandwidth and the number of altcoins you added, this process usually takes between 3-4 hours.
 
-You will see the pop-up message showing the sync progress. When your node fully syncs, the pop-up will disappear.
+You will see the pop-up message showing the sync progress. When your node fully syncs, the pop-up disappears.
 
 ## Account Registration
 
@@ -43,10 +43,12 @@ GRSPay has a POS app which you can use to receive payments from your customers d
 
 1. Go to > Apps
 2. Create a new App
-3. Add a name for your app (ex "My awesome POS."
-4. Customize your POS
-5. Submit query.
-6. Click view to preview your POS
+3. Add a name of your app
+4. Customize your PoS by adding your own items with prices, photos, and a description.
+5. Click "Submit query".
+6. Click "View" to preview your PoS (Your customers can access the PoS through that link).
+
+You can change the appearance of your Point of Sale app by following [theme customization guide](Theme.md).
 
 ## Creating the Pay Button
 
