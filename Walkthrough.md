@@ -4,7 +4,7 @@ In this article, we will walk you through the BTCPay user interface and show you
 
 Watch video below for an interactive overview of the features.
 
-[![Walkthrough](https://img.youtube.com/vi/AgG1xObHtQU/mqdefault.jpg)](https://www.youtube.com/watch?v=AgG1xObHtQU "BTCPay - WalkThrough")
+[![Walkthrough](https://img.youtube.com/vi/ZIfJyq9RimM/mqdefault.jpg)](https://www.youtube.com/watch?v=ZIfJyq9RimM "BTCPay - WalkThrough")
 
 After you created the account on the BTCPay Server instance hosted by yourself or a third-party, you'll see a variety of options in the navigation menu on top.
 
@@ -50,6 +50,11 @@ For more information, check [Apps FAQ](/FAQ/FAQ-Apps.md)
 ## Wallets
 
 Each store gets an internal wallet upon adding a derivation scheme. Internal BTCPay wallet shows all of your payments and should be used as a reference if some payments are not shown in your software or hardware wallet due to some wallets [not supporting larger gap limit](FAQ.md#i-do-not-see-the-funds-in-my-softwarehardware-wallet). In Wallets, you can see the total balance of your store. The funds from the wallet can only be spent, if the user signs a transaction with a compatible hardware wallet.
+
+Three elements of the internal BTCPay Wallet are 
+* Transaction - tab which shows your entire transaction history
+* Send - used for sending funds out of your wallet (has to be signed and confirmed on a compatible hardware wallet)
+* Rescan - enables you to easier import old wallets into BTCPay and solves problem with gap limit most external wallets have
 
 For more information, check [Wallet FAQ](/FAQ/FAQ-Wallet.md)
 

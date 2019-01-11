@@ -51,6 +51,7 @@ If an invoice is paid while your BTCPay server is down, the software will automa
 * [Use Case](UseCase.md)
 * [Walkthrough](Walkthrough.md)
 * [Getting Started](GettingStarted.md)
+* [BTCPay vs other processors](BTCPayVsOthers.md)
 * [Try it Out](TryItOut.md)
     
 ## Deployment
@@ -64,7 +65,15 @@ If an invoice is paid while your BTCPay server is down, the software will automa
 * [Google Cloud Deployment](GoogleCloudDeployment.md)
 * [Manual Deployment](ManualDeployment.md)
 * [Hardware Deployment](HardwareDeployment.md)
+* [Raspberry Pi Deployment](RaspberryPiDeployment.md)
 * [Third-Party Hosting](ThirdPartyHosting.md)
+
+### Features
+
+* [Internal Wallet](Wallet.md)
+* [Apps](Apps.md)
+* [Lightning Network](LightningNetwork.md)
+* [Accounting](Accounting.md)
 
 ### Integrations
 
@@ -79,7 +88,6 @@ If an invoice is paid while your BTCPay server is down, the software will automa
 
 * [Architecture](Architecture.md)
 * [Developing Locally](LocalDevelopment.md)
-* [Lightning Network](LightningNetwork.md)
 * [How to add an Altcoin](Altcoins.md)
 * [Customize Bootstrap theme](Theme.md)
 
