@@ -72,7 +72,7 @@ You can also get log information with c-lightning cli command.
 
 `bitcoin-lightning-cli.sh getlog`
 
-## 3. Finding a solution yourself (FAQ, Wiki, GitHub issues)
+## 3. Finding a solution yourself (Google, FAQ, GitHub issues)
 
 Even though setups differ, the chances that someone else experienced the same issue as yours are pretty high. Take a few moments, Google around and see if you can solve it yourself. 
 
@@ -80,11 +80,7 @@ Even though setups differ, the chances that someone else experienced the same is
 
 We try to document the most common issues on the [Frequently Asked Questions page](FAQ.md). Take a look there and see if your question is recorded.
 
-### 3.2 BTCPay Wiki
-
-[BTCPay Server Wiki page](https://nbitstack.com/c/btcpayserver) contains a list of questions and issues from users. Use the search bar in the upper right corner to see if someone faced a similar problem and if there's a solution to it.
-
-### 3.3 GitHub
+### 3.2 GitHub
 
 When there's an advanced technical issue, users usually open an issue on GitHub. Take a look at the BTCPay GitHub repository and browse [search the closed issues](https://github.com/btcpayserver/btcpayserver/issues?q=is%3Aissue+is%3Aclosed).
 
@@ -92,11 +88,11 @@ When there's an advanced technical issue, users usually open an issue on GitHub.
 
 If you're unable to solve the problem yourself, do not worry. There's an amid community ready to help you. 
 
-The better you describe the problem, the higher are the chances of getting a timely fix. Be concise and provide as much relevant information as possible. Be sure to include the [version you're using](https://nbitstack.com/t/what-is-my-btcpay-server-version/94/2) and describe your BTCPay Setup. Try to explain what you're trying to do and what's the issue. If you can provide the logs. If you think it's relevant, feel free to include a screenshot.
+The better you describe the problem, the higher are the chances of getting a timely fix. Be concise and provide as much relevant information as possible. Be sure to include the [version you're using](FAQ/FAQ-ServerSettings.md#how-can-i-see-my-btcpay-version) and describe your BTCPay Setup. Try to explain what you're trying to do and what's the issue. If you can provide the logs. If you think it's relevant, feel free to include a screenshot.
 
 Here's a good example of how to ask a question.
 
-> I'm having a problem with XYZ. I can replicate the problem. My BTCPay version is 0.100.31, and I deployed my server on Digital Ocean by following Docker deployment guide. I've searched through the FAQ, Wiki and closed GitHub issues, but there's no solution to my problem. My BTCPay Setup is XYZ, and the issue is occurring when I do XYZ. Here are the logs I was able to get from my BTCPay instance. You can see the error in the image I attached.
+> I'm having a problem with XYZ. I can replicate the problem. My BTCPay version is 0.100.31, and I deployed my server on Digital Ocean by following Docker deployment guide. I've searched through the FAQ and closed GitHub issues, but there's no solution to my problem. My BTCPay Setup is XYZ, and the issue is occurring when I do XYZ. Here are the logs I was able to get from my BTCPay instance. You can see the error in the image I attached.
 
 ### 4.1 Asking the community (general problems)
 
