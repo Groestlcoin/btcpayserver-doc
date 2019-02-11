@@ -7,18 +7,19 @@ This document contains a Table of contents to all FAQ and common issues.
 General, non-technical questions about BTCPay. What it is, how it works, what are its features, why is it different and who can use it.
 
 * [What is BTCPay Server?](FAQ-General.md#what-is-btcpay-server)
-* [Why choose it over other payment processors?](FAQ-General.md#what-is-btcpay-server)
-* [Why is everyone excited about BTCPay?](FAQ-General.md#what-is-btcpay-server)
+* [Why should I choose BTCPay over other processors?](FAQ-General.md#why-should-i-choose-btcpay-over-other-processors)
+* [Why is everyone so excited about BTCPay?](FAQ-General.md#why-is-everyone-so-excited-about-btcpay)
 * [Who can use BTCPay?](FAQ-General.md#who-can-use-btcpay)
-* [How much does it cost to run BTCPay Server](FAQ-General.md#how-much-does-it-cost-to-run-btcpay-server)
-* [How to install BTCPay](FAQ-General.md#whow-to-install-btcpay-server)
+* [How much does it cost to run BTCPay Server?](FAQ-General.md#how-much-does-it-cost-to-run-btcpay-server)
+* [How to install BTCPay?](FAQ-General.md#how-to-install-btcpay-server)
 * [What are the minimal requirements?](FAQ-General.md#what-are-the-minimal-requirements-to-run-btcpay)
 * [What e-commerce integrations are available?](FAQ-General.md#what-e-commerce-integrations-are-available)
-* [Can I use BTCPay if I'm not a merchant and don't have a store?](FAQ-General.md#do-i-need-to-have-an-online-store-to-accept-cryptocurrencies)
+* [Do I need to have an online store to accept cryptocurrencies?](FAQ-General.md#do-i-need-to-have-an-online-store-to-accept-cryptocurrencies)
 * [Which cryptocurrencies are supported in BTCPay?](FAQ-General.md#which-cryptocurrencies-are-supported-in-btcpay)
-* [Why can't I just give my public address to my buyer?](FAQ-General.md#why-cant-i-just-give-my-bitcoin-address-to-a-buyer)
+* [Why can't I just give my public address to a buyer?](FAQ-General.md#why-cant-i-just-give-my-bitcoin-address-to-a-buyer)
 * [Does BTCPay need my private key?](FAQ-General.md#does-btcpay-need-myprivate-key)
-* [Where can I get help/support?](FAQ-General.md#where-can-i-get-help-and-support)
+* [Does BTCPay Server support crypto to fiat conversion?](FAQ-General.md#does-btcpay-server-support-crypto-to-fiat-conversion)
+* [Where can I get help and support?](FAQ-General.md#where-can-i-get-help-and-support)
 * [How can I contribute to BTCPay?](FAQ-General.md#how-can-i-contribute-to-btcpay)
 
 ## [Deployment FAQ](FAQ-Deployment.md)
@@ -120,6 +121,7 @@ Frequent questions about the applications in BTCPay.
 * [How to customize the appearance of POS in BTCPay?](FAQ-Apps.md#how-to-customize-the-appearance-of-Point-of-Sale-App-in-BTCPay)
 * [What is a Payment Button?](FAQ-Apps.md#what-is-a-payment-button)
 * [How to fix empty spacing around payment button](FAQ-Apps.md#how-to-fix-empty-spacing-around-payment-button)
+* [How to integrate WooCommerce Store in BTCPay Crowdfund app?](FAQ-Apps.md#how-to-integrate-woocommerce-store-into-a-btcpay-crowdfund-app)
 
 ## [Lightning Network FAQ](FAQ-LightningNetwork.md)
 
@@ -130,10 +132,11 @@ Lightning Network troubleshooting and common problems.
 * [How to find node info and open a direct channel with a store using BTCPay?](FAQ-LightningNetwork.md#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)
 * [As a merchant, do I need to open direct channels?](FAQ-LightningNetwork.md#as-a-merchant-do-i-need-to-open-direct-channels) 
 * [Previously installed BTCPay without the integrated LN support, can I migrate?](FAQ-LightningNetwork.md#i-previously-installed-btcpayserver-without-the-integrated-lightning-support-can-i-migrate)
-* [Can I used pruned node with LN in BTCPay?](FAQ-LightningNetwork.md#can-i-used-pruned-node-with-ln-in-btcpay)
+* [Can I use a pruned node with LN in BTCPay?](FAQ-LightningNetwork.md#can-i-use-a-pruned-node-with-ln-in-btcpay)
 * [How to change from c-lightning to LND or vice-versa?](FAQ-LightningNetwork.md#how-to-change-from-c-lightning-to-lnd-or-vice-versa)
 * [Switched Lightning Network implementation, getting "no payment available" error](FAQ-LightningNetwork.md#i-switched-lightning-network-implementation-but-getting-no-payment-available-error)
 * [WARNING: The LIGHTNING_ALIAS variable is not set. Defaulting to a blank string" when starting container](FAQ-LightningNetwork.md#i-get-warning-the-lightning_alias-variable-is-not-set-defaulting-to-a-blank-string-when-starting-container)
+* [How to display my Lightning Node information so that others can connect to me?](FAQ-LightningNetwork.md#how-to-display-my-lightning-node-information-so-that-others-can-connect-to-me)
 * [Where can I get Lightning Network Support?](FAQ-LightningNetwork.md#lightning-network-questions-and-support)
 
 ### [Lightning Network (LND) FAQ](FAQ-LightningNetwork.md#lightning-network-lnd-faq)

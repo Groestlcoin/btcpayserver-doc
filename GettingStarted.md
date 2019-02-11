@@ -10,7 +10,9 @@ You will see the pop-up message showing the sync progress. When your node fully 
 
 The <strong>first created account</strong> on your newly-created GRSPay server is automatically an <strong>admin</strong>. You can register your admin account even if your node is not fully synced.
 
-To register, visit your GRSPay server URL and click on the "Register" in the upper menu. Input your password and e-mail and click "Register" button. You will automatically be logged in. If you're using a third-party host, you may be asked to verify your e-mail address.
+To register, visit your GRSPay Server URL and click on the "Register" in the upper menu. Input your password and e-mail and click "Register" button. You will automatically be logged in. If you're using a third-party host, you may be asked to verify your e-mail address to register.
+
+To allow other users to access your server, you need to enable registration in Server Settings > Policies. Server admins, should also [configure SMTP settings](FAQ/FAQ-ServerSettings.md#how-to-configure-smtp-settings-in-btcpay) to allow password reset via the e-mail for themselves and other users.
 
 ## Creating GRSPay Store
 
@@ -34,6 +36,8 @@ There are two ways in which you can connect your GRSPay to your wallet:
 Watch the video below or read [this article](https://bitcoinshirt.co/how-to-create-store-accept-bitcoin/8/#Connecting-BTCPay-with-your-wallet) for step by step instructions.
 
 [![ConnectBTCPayWallet](https://img.youtube.com/vi/xX6LyQej0NQ/mqdefault.jpg)](https://www.youtube.com/watch?v=xX6LyQej0NQ "BTCPay - Connecting Wallet")
+
+If you're using altcoins, be sure to repeat the process for each of the alternative coins. Each coin has its own wallet and derivation scheme.
 
 ## Creating the Point of Sale App
 

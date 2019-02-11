@@ -137,7 +137,7 @@ df -h
 Create symlink to flash drive for Docker.
 ```bash 
 sudo mkdir /mnt/usb/docker
-sudo ln -s /var/lib/docker /mnt/usb/docker
+sudo ln -s /mnt/usb/docker /var/lib/docker
 ```
 
 
@@ -210,4 +210,3 @@ Enjoy!
 If you don't have the time or patience to build your own BTCPB there are a few merchants who can build one for you. 
 - [Lightning in a Box](https://lightninginabox.co)
 - [Nodl.it](https://nodl.it)
-

@@ -5,18 +5,19 @@ This page contains general questions about BTCPay. What it is, how it works, how
 # [General FAQ](FAQ-General.md)
 
 * [What is BTCPay Server?](FAQ-General.md#what-is-btcpay-server)
-* [Why choose it over other payment processors?](FAQ-General.md#what-is-btcpay-server)
-* [Why is everyone excited about BTCPay?](FAQ-General.md#what-is-btcpay-server)
+* [Why should I choose BTCPay over other processors?](FAQ-General.md#why-should-i-choose-btcpay-over-other-processors)
+* [Why is everyone so excited about BTCPay?](FAQ-General.md#why-is-everyone-so-excited-about-btcpay)
 * [Who can use BTCPay?](FAQ-General.md#who-can-use-btcpay)
-* [How much does it cost to run BTCPay Server](FAQ-General.md#how-much-does-it-cost-to-run-btcpay-server)
-* [How to install BTCPay](FAQ-General.md#whow-to-install-btcpay-server)
+* [How much does it cost to run BTCPay Server?](FAQ-General.md#how-much-does-it-cost-to-run-btcpay-server)
+* [How to install BTCPay?](FAQ-General.md#how-to-install-btcpay-server)
 * [What are the minimal requirements?](FAQ-General.md#what-are-the-minimal-requirements-to-run-btcpay)
 * [What e-commerce integrations are available?](FAQ-General.md#what-e-commerce-integrations-are-available)
-* [Can I use BTCPay if I'm not a merchant and don't have a store?](FAQ-General.md#do-i-need-to-have-an-online-store-to-accept-cryptocurrencies)
+* [Do I need to have an online store to accept cryptocurrencies?](FAQ-General.md#do-i-need-to-have-an-online-store-to-accept-cryptocurrencies)
 * [Which cryptocurrencies are supported in BTCPay?](FAQ-General.md#which-cryptocurrencies-are-supported-in-btcpay)
-* [Why can't I just give my public address to my buyer?](FAQ-General.md#why-cant-i-just-give-my-bitcoin-address-to-a-buyer)
+* [Why can't I just give my public address to a buyer?](FAQ-General.md#why-cant-i-just-give-my-bitcoin-address-to-a-buyer)
 * [Does BTCPay need my private key?](FAQ-General.md#does-btcpay-need-myprivate-key)
-* [Where can I get help/support?](FAQ-General.md#where-can-i-get-help-and-support)
+* [Does BTCPay Server support crypto to fiat conversion?](FAQ-General.md#does-btcpay-server-support-crypto-to-fiat-conversion)
+* [Where can I get help and support?](FAQ-General.md#where-can-i-get-help-and-support)
 * [How can I contribute to BTCPay?](FAQ-General.md#how-can-i-contribute-to-btcpay)
 
 ## What is BTCPay Server?
@@ -73,7 +74,7 @@ Please check out [How to penny-pinch your Azure deployment](AzurePennyPinching.m
 
 If you would like to run Bitcoin and Lightning Network nodes, the minimal requirements are :
 - 2GB Ram
-- 80 GB of storage (with pruning enabled)
+- 80 GB of storage (with [pruning](https://github.com/btcpayserver/btcpayserver-docker#generated-docker-compose-) enabled)
 - Docker
 
 ## How to install BTCPay Server?
@@ -171,7 +172,7 @@ At this time, it is not possible to instantly convert your payments into fiat th
 
 BTCPay is an open-source project. It is not a company; there is no e-mail, live-chat or phone support. The software relies on a network of contributors and users to provide support.
 
-If you encountered an issue or have a feature request, please [open an issue on GitHub](https://github.com/btcpayserver/btcpayserver/issues). For more general questions, join our [community on Slack](http://slack.btcpayserver.org/). Certain community members offer [premium (paid) support](https://github.com/btcpayserver/btcpayserver-doc/blob/master/Support.md).
+If you encountered an issue or have a feature request, please [open an issue on GitHub](https://github.com/btcpayserver/btcpayserver/issues). For more general questions, join our [community on Mattermost](https://chat.btcpayserver.org/). Certain community members offer [premium (paid) support](https://github.com/btcpayserver/btcpayserver-doc/blob/master/Support.md).
 
 ## How can I contribute to BTCPay?
 

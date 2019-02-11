@@ -1,14 +1,15 @@
-This document clarifies some of the most common questions and issues users face with the Lightning Network in BTCPay. Before you start using the off-chain protocol, familiarize yourself with the risks. Additionally, read [Getting Started with Lightning Network in BTCPay](LightningNetwork.md)
+This document clarifies some of the most common questions and issues users face with the Lightning Network in BTCPay. Before you start using the off-chain protocol, familiarize yourself with the risks. Additionally, read [Getting Started with Lightning Network in BTCPay](/LightningNetwork.md)
 
 ## [Lightning Network General FAQ](FAQ-LightningNetwork.md#lightning-network-general-faq)
 * [How many users can use Lightning Network in BTCPay?](FAQ-LightningNetwork.md#how-many-users-can-use-lightning-network-in-btcpay)
 * [How to find node info and open a direct channel with a store using BTCPay?](FAQ-LightningNetwork.md#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)
 * [As a merchant, do I need to open direct channels?](FAQ-LightningNetwork.md#as-a-merchant-do-i-need-to-open-direct-channels) 
 * [Previously installed BTCPay without the integrated LN support, can I migrate?](FAQ-LightningNetwork.md#i-previously-installed-btcpayserver-without-the-integrated-lightning-support-can-i-migrate)
-* [Can I used pruned node with LN in BTCPay?](FAQ-LightningNetwork.md#can-i-used-pruned-node-with-ln-in-btcpay)
+* [Can I use a pruned node with LN in BTCPay?](FAQ-LightningNetwork.md#can-i-use-a-pruned-node-with-ln-in-btcpay)
 * [How to change from c-lightning to LND or vice-versa?](FAQ-LightningNetwork.md#how-to-change-from-c-lightning-to-lnd-or-vice-versa)
 * [Switched Lightning Network implementation, getting "no payment available" error](FAQ-LightningNetwork.md#i-switched-lightning-network-implementation-but-getting-no-payment-available-error)
 * [WARNING: The LIGHTNING_ALIAS variable is not set. Defaulting to a blank string" when starting container](FAQ-LightningNetwork.md#i-get-warning-the-lightning_alias-variable-is-not-set-defaulting-to-a-blank-string-when-starting-container)
+* [How to display my Lightning Node information so that others can connect to me?](FAQ-LightningNetwork.md#how-to-display-my-lightning-node-information-so-that-others-can-connect-to-me)
 * [Where can I get Lightning Network Support?](FAQ-LightningNetwork.md#lightning-network-questions-and-support)
 
 ## [Lightning Network (LND) FAQ](FAQ-LightningNetwork.md#lightning-network-lnd-faq)
@@ -150,7 +151,7 @@ Here is how it should look like:
 
 ![SecurityRules](/img/azuresecurityrule.png)
 
-### Can I used pruned node with LN in BTCPay?
+### Can I use a pruned node with LN in BTCPay?
 
 Both LND and c-lightning support prunning. 
 
@@ -195,6 +196,13 @@ vim $BTCPAY_ENV_FILE
 ```
 
 And add or modify the `LIGHTNING_ALIAS` entry to `LIGHTNING_ALIAS=myawesomenode`.
+
+### How to display my Lightning Node information so that others can connect to me?
+The information other users need to connect to your node, is already displayed at the checkout. Sometimes, merchants want to display their node so that their customers can connect beforehand.
+
+There are numerous ways to find your node information, but the easiest way to display it to others is by using Lightning Node info page. Go to Store > General Settings > Lightning nodes > Modify. At the bottom of the page, there is a "Open Public Node Page" button. Click on it to see the information. The page can be embeded into your website with `<iframe>`. 
+
+![BTCPay Checkout](/img/LightningNodepPageInfo.png)
 
 ## Lightning Network (LND) FAQ 
 
